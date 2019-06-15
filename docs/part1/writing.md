@@ -332,25 +332,3 @@ Replace all
  with
  `confirm: false`
 
-
-
-## 转换电子书
-
-将可以导出pdf。但是往往到了这一步，会弹出一些错误信息。
-
-```
-Error during ebook generation: 'ebook-convert'
-1
-```
-
-2.解决方法
- 在下面网页下载calibre并安装
-
-```npm
-3.npm install ebook-convert -g 
-查看安装版本 gitbook --version ebook-convert --version 
-4.git clone xxxxx.git(对了，还要先安装git) 
-5.gitbook install 6.gitbook pdf 或gitbook epub
-
-```
-

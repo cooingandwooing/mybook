@@ -35,19 +35,19 @@
         "emphasize",
 		"tbfed-pagefooter",
 		"sectionx",
-		"page-treeview",
-		"klipse",
 		"flexible-alerts",
-		"pageview-count",
 		"auto-scroll-table",
-		"lightbox"		
+		"lightbox",
+		"-pageview-count",
+		"-klipse",
+		"-page-treeview"
     ],
     "pluginsConfig": {
         "github": {
             "url": "https://github.com/qingyejiazhu"
         },
 		"tbfed-pagefooter": {
-            "copyright":"Copyright &copy xxxx.com 2017",
+            "copyright":"Copyright &copy github.qingyejiazhu.com 2019",
             "modify_label": "该文件修订时间：",
             "modify_format": "YYYY-MM-DD HH:mm:ss"
         },
@@ -59,7 +59,7 @@
         "github-buttons": {
             "buttons": [{
                 "user": "qingyejiazhu",
-                "repo": "note",
+                "repo": "mybook",
                 "type": "star",
                 "size": "small",
                 "count": true
@@ -113,7 +113,7 @@
             }
         },
 		"insert-logo": {
-            "url": "images/logo.png",
+            "url": "/image/2_qingyejiazhu.png",
             "style": "background: none; max-height: 30px; min-height: 30px"
     }
     }

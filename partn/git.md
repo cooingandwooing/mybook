@@ -33,6 +33,16 @@ git push -u origin master
 
 
 
+`git` 这里有点特殊。要先加入到 staging area 的改动才会被 `git commit` 提交。同一个文件也可以 `add` 多次。不想`add`可以：
+
+```
+git commit -m 'msg' <file>
+```
+
+```
+git commit -m 'msg' -a
+```
+
 ## 编译成html
 
 为了部署方便，现在我们修改一下文件的结构

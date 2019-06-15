@@ -13,6 +13,7 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 
 
 
+```
 <!--sec data-title="标题1" data-id="section0" data-show=true ces-->
 内容部分1；
 <button class="section" target="section1" show="显示下一部分" hide="隐藏下一部分"></button>
@@ -20,6 +21,7 @@ This text is {% em color="#ff0000" %}highlighted with a custom color!{% endem %}
 <!--sec data-title="标题2" data-id="section1" data-show=true ces-->
 内容部分2
 <!--endsec-->
+```
 
 
 
